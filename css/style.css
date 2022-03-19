@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&family=Teko:wght@700&display=swap');
+
+
+body{
+    background-color: #121212;
+    color: #000000;
+    margin: 0;
+    font-family: 'Poppins';
+    font-family: 1rem;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+    color: #FFD233;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.conteudo{
+    background-color: #363636;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 55px;
+    border-radius: 10px;
+}
+
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+
+.topo input{
+    width: 350px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #000000;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+
+.topo button {
+    width: 50px;
+    background: #FFD233;
+    box-shadow: 0px 4px 4px;
+    border-radius: 9px;
+    border: hidden;
+}
+
+.topo button:hover{
+    background: #ffe174;
+    cursor: pointer;
+}
+
+
+#listaTarefa{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#listaTarefa li{
+    margin-top: 15px;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnAcao{
+    border-radius: 20px;
+    border: hidden;
+    margin-right: 8px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #FFD233;
+}
+
+.btnAcao:hover{
+    background: #ffe174;
+}
+
