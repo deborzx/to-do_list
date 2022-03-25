@@ -9,6 +9,12 @@ body{
     font-family: 1rem;
 }
 
+
+.container{
+    flex-direction: row;
+    position: relative;
+}
+
 .title{
     font-weight: 600;
     font-size: 48px;
@@ -77,6 +83,13 @@ body{
     align-items: center;
 }
 
+.textoTarefa{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 290px;
+    white-space: nowrap;
+}
+
 .btnAcao{
     border-radius: 20px;
     border: hidden;
@@ -91,8 +104,6 @@ body{
 }
 
 
-
-
 footer{
     position:fixed;
 	bottom:0;
@@ -104,3 +115,16 @@ footer{
     justify-content: center;
     display: flex;
 }
+
+
+@media screen and (max-width: 560px){
+
+
+    .container{
+        position: absolute;
+        justify-content: center;
+    }
+
+    .title{
+    }
+  }
